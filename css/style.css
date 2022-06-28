@@ -1,0 +1,10 @@
+#third .bottom .left,
+#blog .bottom>.left{
+    border-radius: 50%;
+    overflow: hidden;    
+}
+
+#third .bottom .left img,
+#blog .bottom>.left>img{
+    width: 100%;
+}
