@@ -1,10 +1,324 @@
-#third .bottom .left,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #212529;
+    padding: 20px 0;
+}
+
+header .logo a{
+       color: white;
+}
+
+header nav a{
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 15px;
+    transition: .5s;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+#header-button{
+    background-color: #212529;
+    padding: 70px 0;
+    color: white;
+}
+
+#header-button .left-button a{
+    margin-right: 20px;   
+    color: white;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    transition: .2s;
+}
+
+#header-button .left-button a:nth-child(1){
+    background-color: #0d6efd;
+    border-color: #0d6efd;    
+}
+
+#header-button .left-button a:nth-child(2){
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-color: #f8f9fa;
+}
+
+#header-button .left-button a:nth-child(2):hover{
+    background-color: white;
+    color: #212529;
+}
+
+#header-button .left-button a:nth-child(1):hover{
+    background-color: #0a58ca;
+    border-color: #0d6efd;    
+}
+
+#header-button .left h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#header-button .left p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
+
+#header-button .left{
+    padding-top: 40px;
+    align-items: center;
+}
+
+#third{
+    background-color: #F8F9FA;
+    padding: 70px 0;
+}
+
+#third .top h3{
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #212529;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+#third .buttom p{
+    font-weight: bold;
+}
+
+#third .buttom .left{
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+
+#blog{
+    padding: 70px 0;
+}
+
+#blog .top h2{
+    font-size: 2rem;
+}
+
+#blog .top p{
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 0 auto 3rem;
+}
+
+
 #blog .bottom>.left{
     border-radius: 50%;
     overflow: hidden;    
 }
 
-#third .bottom .left img,
-#blog .bottom>.left>img{
-    width: 100%;
+
+#blog .card-body a{   
+    color: white;
+    font-weight: bold;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: #0d6efd;
+    border-color: #0d6efd; 
 }
+
+#blog .card-body h5{
+    margin-top: 10px;
+}
+
+#blog .box-all .bottom .rigth{
+    padding-left: 10px;
+}
+
+#blog .card{
+    box-shadow: 0px 0px 10px 1px #66666685;
+}
+
+#delivered{
+    padding-bottom: 70px;
+}
+
+#delivered .all{
+    background-color: #0d6efd;
+    border-radius: 10px;
+    padding: 35px 25px;
+}
+
+#delivered p{
+    color: rgba(255, 255, 255, 0.5) ;
+}
+
+#delivered .rigth-all p{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#delivered .rigth-all .input{
+    padding: 7px 140px 7px 10px;
+    outline: none;     
+}
+
+#delivered .rigth-all{
+    position: relative;
+}
+
+#delivered .rigth-all button{
+    position: absolute;
+    top: 2px;
+    right: 6px;
+    color: white;
+    background-color: #0d6efd;
+    border-color: transparent;
+    padding: 5px 15px;
+    transition: .5s;
+}
+
+#delivered .rigth-all button:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    background-color: #212529;
+    color: white;
+    padding: 30px 0 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration:underline;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer span{
+    margin: 0 2px;
+}
+
+footer .rigth{
+    text-align: end;
+} 
+
+
+
+
+header .menu{
+    display: none;
+}
+
+
+@media (max-width:576px){
+    header .link{
+        display: none;
+    }
+
+    header, #header-button, #featured, #third, #blog, #delivered{
+        padding: 25px;
+    }
+
+    header .menu{
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.55);
+        font-size: 30px;
+        border: .2px solid rgba(255, 255, 255, 0.55);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    header .menu:hover{
+        cursor: pointer;
+    }
+
+    #header-button .rigth{
+        display: none;
+    }
+    #header-button .left{
+        text-align: center;
+    }
+
+    #header-button .left h1{
+        font-size: calc(1.425rem + 2.1vw);
+    }
+
+    #header-button .left p{
+        font-size: 1.25rem;
+    }
+
+    #header-button .left .left-button a{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    #third .top h3{
+        font-size: calc(1.275rem + 0.3vw)
+    }
+
+    #delivered{
+        text-align: center;
+    }
+
+    #delivered .rigth-all button{
+        position: absolute;
+        top: 2px;
+        right: 14px;       
+        padding: 5px 15px;
+        transition: .5s;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+
+    footer .rigth{
+        text-align: center;
+        font-size: 14px;  
+        line-height: 0;      
+    }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,79 +10,52 @@
     <title>Document</title>
 </head>
 <body>
-    <section >
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-              <a class="navbar-brand" href="#">Start Bootstrap</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>              
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                </ul>
-                <span class="navbar-text">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Blog
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            </ul>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Portfolio
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            </ul>
-                          </li>
-                        </ul>                
-                      </div>
-                </span>
-              </div>
-            </div>            
-          </nav>
-    </section>
 
-    <section id="header-bottom" class="bg-dark py-5">
-        <div class="container-lg">
-            <div class="row all py-5">
-                <div class="col-lg-7 col-sm-7 col-12">
-                    <div class="box me-5 text-center text-xl-start mx-auto">
-                        <h1 class="text-white">A Bootstrap 5 template for modern businesses</h1>
-                        <p class="text-white">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>
-                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-md-center justify-content-xl-start">
-                            <button type="button" class="btn btn-primary btn-lg px-4 mr-5 btn-12 btn-12">Large button</button>
-                            <button type="button" class="btn btn-outline-light btn-lg px-4 mr-5 btn-12">Secondary</button>
-                            
+    <header>
+        <div class="container">
+            <div class="row all align-items-center">
+                <div class="col-lg-3 col-5">
+                    <div class="logo">
+                        <a class="navbar-brand" href="#">Start Bootstrap</a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-7">
+                    <nav class="text-end">
+                        <a class="link" href="#">Home</a>
+                        <a class="link" href="#">About</a>
+                        <a class="link" href="#">Contact</a>
+                        <a class="link" href="#">Pricing</a>
+                        <a class="link" href="#">FAQ</a>
+                        <a class="dropdown-toggle link" href="#">Blog</a>   
+                        <a class="dropdown-toggle link" href="#">Portfolio</a>
+                        <i class="fa-solid fa-bars menu"></i>
+                    </nav>
+                </div>              
+            </div>
+        </div>
+    </header>
+
+    <section id="header-button">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-7 col-12">
+                    <div class="left">
+                        <h1>A Bootstrap 5 template for modern businesses</h1>
+                        <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>
+                        <div class="left-button">
+                            <a href="">Get Started</a>
+                            <a href="">Learn More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-                    <div class="box">
-                        <img src="https://dummyimage.com/600x400/343a40/6c757d" class="img-fluid rounded-start" alt="...">
+                <div class="col-lg-5">
+                    <div class="rigth">
+                        <img class="img-fluid" src="https://dummyimage.com/600x400/343a40/6c757d" alt="">
                     </div>
-                </div>
+                </div>                
             </div>
         </div>
     </section>
-
 
     <section id="featured" class="py-5">
         <div class="container">
@@ -120,133 +93,130 @@
         </div>
     </section>
 
-    <section id="third" class="py-5 bg-light">
+    <section id="third">
         <div class="container text-center">
-            <div class="top col-lg-6 mx-auto fs-4 mb-4 fst-italic">
+            <div class="top col-lg-6 col-12 mx-auto">
                 <h3>"Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"</h3>
             </div>
-            <div class="bottom d-flex align-items-center justify-content-center my-5">
+            <div class="buttom d-flex justify-content-center align-items-center mx-4">
                 <div class="left">
-                    <img class="" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
+                    <img class="img-fluid" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
                 </div>
-                <div class="rigth ps-2 mx-1">
+                <div class="rigth">
                     <p>Tom Ato <span class="fw-bold text-primary">/</span> CEO, Pomodoro</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="blog" class="py-5">
-        <div class="container">
-            <div class="top text-center">
-                <h2>From our blog</h2>
-                <p class="fw-normal mb-5 mx-auto" style="width: 50%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
-            </div>
-            <div class="bottom">
-                <div class="row">
-                    <div class="col-lg-4 col-12">
-                        <div class="box">
-                            <div class="card h-100 shadow border-0">
-                                <img src="https://dummyimage.com/600x350/ced4da/6c757d" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <a href="#" class="text-decoration-none badge rounded-pill bg-primary mb-2">News</a>
-                                  <h5 class="card-title">Blog post title</h5>
-                                  <p class="card-text mb-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <div class="bottom d-flex justify-content-evenly align-items-center">
-                                        <div class="left">
-                                            <img src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
-                                        </div>
-                                        <div class="rigth">
-                                            <strong>Kelly Rowan</strong>
-                                            <p class="fs-18">March 12, 2022 · 6 min read</p>
-                                        </div>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 col-12">
-                        <div class="box">
-                            <div class="card h-100 shadow border-0">
-                                <img src="https://dummyimage.com/600x350/ced4da/6c757d" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <a href="#" class="text-decoration-none badge rounded-pill bg-primary mb-2">News</a>
-                                  <h5 class="card-title">Blog post title</h5>
-                                  <p class="card-text mb-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <div class="bottom d-flex justify-content-evenly align-items-center">
-                                        <div class="left">
-                                            <img src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
-                                        </div>
-                                        <div class="rigth">
-                                            <strong>Kelly Rowan</strong>
-                                            <p class="fs-18">March 12, 2022 · 6 min read</p>
-                                        </div>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 col-12">
-                        <div class="box">
-                            <div class="card h-100 shadow border-0">
-                                <img src="https://dummyimage.com/600x350/ced4da/6c757d" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <a href="#" class="text-decoration-none badge rounded-pill bg-primary mb-2">News</a>
-                                  <h5 class="card-title">Blog post title</h5>
-                                  <p class="card-text mb-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <div class="bottom d-flex justify-content-evenly align-items-center">
-                                        <div class="left">
-                                            <img src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
-                                        </div>
-                                        <div class="rigth">
-                                            <strong>Kelly Rowan</strong>
-                                            <p class="fs-18">March 12, 2022 · 6 min read</p>
-                                        </div>
-                                  </div>
-                                </div>
-                              </div>
+<section id="blog">
+    <div class="container">
+        <div class="top text-center">
+            <h2 class="fw-bold">From our blog</h2>
+            <p class="col-lg-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
+        </div>
+            <div class="row box-all g-5">
+                <div class="col-lg-4 col-12">
+                    <div class="card">
+                        <img src="https://dummyimage.com/600x350/ced4da/6c757d" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">News</a>
+                            <h5>Blog post title</h5>
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="bottom d-flex flex-end px-4 align-items-center">
+                            <div class="left">
+                                <img class="img-fluid" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
+                            </div>
+                            <div class="rigth">
+                                <strong>Kelly Rowan</strong>
+                                <p>March 12, 2022 · 6 min read</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-    </section>
+                <div class="col-lg-4 col-12">
+                    <div class="card">
+                        <img src="https://dummyimage.com/600x350/ced4da/6c757d" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">News</a>
+                            <h5>Blog post title</h5>
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="bottom d-flex flex-end px-4 align-items-center">
+                            <div class="left">
+                                <img class="img-fluid" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
+                            </div>
+                            <div class="rigth">
+                                <strong>Kelly Rowan</strong>
+                                <p>March 12, 2022 · 6 min read</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <section class="pb-5 mx-2">
-        <div class="container">
-            <div class="all row justify-content-between bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
-                <div class="col-lg-8">
+                <div class="col-lg-4 col-12">
+                    <div class="card">
+                        <img src="https://dummyimage.com/600x350/ced4da/6c757d" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">News</a>
+                            <h5>Blog post title</h5>
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="bottom d-flex flex-end px-4 align-items-center">
+                            <div class="left">
+                                <img class="img-fluid" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="">
+                            </div>
+                            <div class="rigth">
+                                <strong>Kelly Rowan</strong>
+                                <p>March 12, 2022 · 6 min read</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>        
+    </div> 
+</section>
+
+
+<section id="delivered">
+    <div class="container">
+        <div class="row all align-items-center">
+            <div class="col-lg-8">
+                <div class="box">
                     <h2 class="text-white">New products, delivered to you.</h2>
-                    <p class="text-white">Sign up for our newsletter for the latest updates.</p>
+                    <p>Sign up for our newsletter for the latest updates.</p>
                 </div>
-                <div class="col-lg-4">
-                    <div class="box">
-                        <div class="input-group mb-2">
-                            <input class="form-control p-2" type="text" placeholder="Email address..." aria-describedby="button-newsletter">
-                            <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
-                        </div>
-                        <div class="small text-white-50">We care about privacy, and will never share your data.</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="box">
+                    <div class="rigth-all">
+                        <input class="input" type="text" placeholder="Email address...">
+                        <button>Sign up</button>
+                        <p>We care about privacy, and will never share your data.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer class="bg-dark py-4 mt-auto">
+
+    <footer>
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-auto">
-                    <p class="text-white">Copyright © Your Website 2022</p>
+                <div class="col-lg-6 col-12">
+                    <p>Copyright © Your Website 2022</p>
                 </div>
-                <div class="col-auto">
-                    <a class="text-white mx-1" href="">Privacy</a>
-                    <span class="link-light small">.</span>
-                    <a class="text-white mx-1" href="">Terms</a>
-                    <span class="link-light small">.</span>
-                    <a class="text-white mx-1" href="">Contact</a>
+                <div class="col-lg-6 col-12 rigth">
+                    <a href="">Privacy</a>
+                    <span>.</span>
+                    <a href="">Terms</a>
+                    <span>.</span>
+                    <a href="">Contact</a>
                 </div>
             </div>
         </div>
